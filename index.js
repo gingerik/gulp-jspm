@@ -132,7 +132,7 @@ function do_bundle(file, opts){
                     return jspm_opts;
         })();
 
-        var method = opts.selfExecutingBundle?'bundleSFX':'bundle';
+        var method = opts.selfExecutingBundle?'build':'bundle';
 
         info_log('calling `jspm.'+method+"('"+jspm_input+"','"+jspm_output+"',"+JSON.stringify(jspm_opts)+');`', infos);
 

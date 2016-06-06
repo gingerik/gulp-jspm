@@ -40,7 +40,7 @@ gulp.src('src/main.js')
     .pipe(gulp.dest('build/'));
 
 gulp.src('src/main.js')
-    .pipe(gulp_jspm({selfExecutingBundle: true})) // `jspm bundle-sfx main`
+    .pipe(gulp_jspm({selfExecutingBundle: true})) // `jspm build main`
     .pipe(gulp.dest('build/'));
 
 gulp.src('src/main.jsx')
